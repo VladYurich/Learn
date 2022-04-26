@@ -30,7 +30,7 @@ const daten_ausgeben = function (a,b,c,d) {
 };
 
 
-daten_ausgeben(titel,typ, betrag, datum);
+daten_ausgeben(titel,typ,betrag, datum);
 
 
 
