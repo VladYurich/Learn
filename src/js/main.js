@@ -20,17 +20,24 @@ const daten_erfassen = function (){
 
 daten_erfassen();
 
-const daten_ausgeben = function (a,d,f,g) {
-    console.log (`Titel: ${titel}
-    Typ: ${typ}
-    Betrag: ${betrag}
-    Datum: ${datum}`);
+
+const daten_ausgeben = function (a,b,c,d) {
+
+    console.log (`Titel: ${a}
+    Typ: ${b}
+    Betrag: ${c}
+    Datum: ${d}`);
 };
 
 
-daten_ausgeben("qwe", "wer");
+daten_ausgeben(titel,typ, betrag, datum);
 
 
+
+
+const EntragMitGesammtbilanzVerrechnen = function () {
+
+}
 
 /*Eingabedaten holen
 let titel_1 = prompt ("Titel");
